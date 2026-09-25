@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    height: 500px;
+    width: 100%;
+    background-image: url(../../../cssimages/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about1img{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+/*.image1video{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}*/
+.about1img .image1{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.about1img .image2{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.image1 .image2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px 0;
+}
+.boxes{
+    height: 500px;
+    width: 70%;
+    /*border: 2px solid black;*/
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+}
+.boxes .box1{
+    background-color: lightseagreen;
+    /*border: 2px solid green;*/
+    border-radius: 10px;
+}
+.boxes .box2{
+    background-color: lightseagreen;
+    /*border: 2px solid green;*/
+    border-radius: 10px;
+}
+.boxes .box3{
+    background-color: lightseagreen;
+    /*border: 2px solid green;*/
+    border-radius: 10px;
+}
+.boxes .box4{
+    background-color: lightseagreen;
+    /*border: 2px solid green;*/
+    border-radius: 10px;
+}
+.travel h1,p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.travel button{
+    padding: 7px 30px;
+    border-radius: 10px;
+    margin-left: 55px;
+    color:lightseagreen;
+    text-align: center;
+}
+.boxes .box1img{
+    height: 150px;
+    width: 150px;
+    background-image: url(../../../cssimages/gallery1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+/*.box1content{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}*/
+.boxes .box2img{
+    height: 150px;
+    width: 150px;
+    background-image: url(../../../cssimages/booking1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.boxes .box3img{
+    height: 150px;
+    width: 150px;
+    background-image: url(../../../cssimages/tour1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.boxes .box4img{
+    height: 150px;
+    width: 150px;
+    background-image: url(../../../cssimages/weather1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  overflow-x: hidden;
+}
+
+/* ===== 1. GLASS PILL NAVBAR ====*/
+nav, .glass-navbar {
+  position: fixed ;
+  top: 20px ;
+  left: 50% ;
+  transform: translateX(-50%) ;
+  width: 92% ;
+  max-width: 1350px;
+  height: 72px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.5);
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  z-index: 9999 ;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08) ;
+}
+
+nav .logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1a2a3a;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav ul li a.active, nav ul li a:hover {
+  background: #5ab0a0;
+  color: white;
+}
+
+nav .nav-btns {
+  display: flex;
+  gap: 10px;
+}
+
+nav .login-btn {
+  background: #1a202c;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ===== (1st Page) ===== */
+.hero {
+  margin-top: 110px;
+  height: 85vh;
+  background: url('your-lake-image.jpg') center/cover no-repeat;
+  border-radius: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.1;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.hero .cta-btn {
+  margin-top: 25px;
+  background: #5ab0a0;
+  color: white;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* =====  (2nd, 3rd Page) ===== */
+.inner-hero {
+  margin-top: 110px;
+  height: 55vh;
+  background: center/cover no-repeat;
+  border-radius: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.inner-hero h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+
+
+/* ===== WANDERLUST FOOTER */
+.wanderlust-footer {
+  background: linear-gradient(135deg, #1e2a4a 0%, #2a3d6b 100%);
+  color: #ffffff;
+  padding: 60px 80px 25px 80px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.8fr 0.8fr 0.8fr 1fr 1.5fr;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 26px;
+}
+
+.footer-desc {
+  color: #a0aec0;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 280px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  width: 28px;
+  height: 28px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  color: #a0aec0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+}
+
+.newsletter-col p {
+  color: #a0aec0;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.subscribe-box {
+  display: flex;
+  gap: 8px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  padding: 10px 14px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  font-size: 13px;
+}
+
+.subscribe-box input::placeholder {
+  color: #8a9bb5;
+}
+
+.subscribe-box button {
+  background: #4ecdc4;
+  color: #0f172a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background: #3dbbb3;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #8a9bb5;
+}
+
+.footer-bottom .bottom-links a {
+  color: #8a9bb5;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer-bottom .bottom-links a:hover {
+  color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wanderlust-footer{
+    padding: 40px 20px;
+  }
+}
+.fa-instagram{
+    color: #d6249f;
+}
+.fa-facebook-f{
+    color:blue;
+}
+.fa-x-twitter{
+    color:white;
+}
+.fa-youtube{
+    color: red;
+}
