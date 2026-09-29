@@ -6,7 +6,7 @@
 .about{
     height: 500px;
     width: 100%;
-    background-image: url(../../../cssimages/about.jpg);
+    background-image: url(./images/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -97,7 +97,7 @@
 .boxes .box1img{
     height: 150px;
     width: 150px;
-    background-image: url(../../../cssimages/gallery1.jpg);
+    background-image: url(./images/gallery1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -113,7 +113,7 @@
 .boxes .box2img{
     height: 150px;
     width: 150px;
-    background-image: url(../../../cssimages/booking1.jpg);
+    background-image: url(./images/booking1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,7 +124,7 @@
 .boxes .box3img{
     height: 150px;
     width: 150px;
-    background-image: url(../../../cssimages/tour1.jpg);
+    background-image: url(./images/tour1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,7 +135,7 @@
 .boxes .box4img{
     height: 150px;
     width: 150px;
-    background-image: url(../../../cssimages/weather1.jpg);
+    background-image: url(./images/weather1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

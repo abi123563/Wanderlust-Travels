@@ -58,7 +58,7 @@
 .container4 .emailimg{
     height: 40px;
     width: 40px;
-    background-image: url(../../../cssimages/email.jpg);
+    background-image: url(./images/email.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 .container4 .phoneimg{
     height: 40px;
     width: 40px;
-    background-image: url(../../../cssimages/phone.jpg);
+    background-image: url(./images/phone.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 .container4 .locationimg{
     height: 40px;
     width: 40px;
-    background-image: url(../../../cssimages/location.jpg);
+    background-image: url(./images/location.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

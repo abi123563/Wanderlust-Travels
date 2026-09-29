@@ -160,7 +160,7 @@
     height: 130px;
     width: 250px;
     border-radius: 5px;
-    background-image: url(../../../cssimages/terrace.jpg); 
+    background-image: url(./images/terrace.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@
     height: 130px;
     width: 250px;
     border-radius: 5px;
-    background-image: url(../../../cssimages/ridge.jpg); 
+    background-image: url(./images/ridge.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +192,7 @@
     height: 130px;
     width: 250px;
     border-radius: 5px;
-    background-image: url(../../../cssimages/nyanyi.jpg); 
+    background-image: url(./images/nyanyi.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
